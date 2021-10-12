@@ -8,7 +8,7 @@ namespace ChallengesWithTestsMark8
     {
         public bool CharacterIsALetter(char c)
         {
-            return char.IsLetterOrDigit(c);
+            return char.IsLetter(c);
         }
 
         public bool CountOfElementsIsEven(string[] vals)
@@ -31,43 +31,49 @@ namespace ChallengesWithTestsMark8
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
         {
-            return numbers == null || numbers == new double[] { } ? 0 : numbers.Min() + numbers.Max();
+            return numbers == null || numbers.Count() == 0 /*numbers == new double[] { }*/ ? 0 : numbers.Min() + numbers.Max();
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            throw new NotImplementedException();
+            return str1.Length < str2.Length ? str1.Length : str2.Length;
         }
 
         public int Sum(int[] numbers)
         {
             var sum = 0;
-            foreach (var n in numbers)
-            {
-                sum += n;
-            }
-            return numbers == null || numbers == new int[] { } ? 0 : sum;
+            if (numbers == null)
+                return 0;
+            else
+                foreach (var n in numbers)
+                    sum += n;
+            return sum;
         }
 
         public int SumEvens(int[] numbers)
         {
-            var evens = new int[] { };
-            foreach (var n in numbers)
+            var evens = new List<int>();
+            if (numbers == null)
+                return 0;
+            else
             {
-                if (n % 2 == 0)
-                    evens.Append(n);
+                foreach (var n in numbers)
+                {
+                    if (n % 2 == 0)
+                        evens.Add(n);
+                }
             }
             return evens.Sum();
         }
 
         public bool IsSumOdd(List<int> numbers)
         {
-            throw new NotImplementedException();
+            return numbers == null ? false : (numbers.Sum() % 2 != 0);
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            throw new NotImplementedException();
+            return number >= 0 ? number / 2 : 0;
         }
     }
 }
