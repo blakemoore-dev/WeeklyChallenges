@@ -55,9 +55,13 @@ namespace ChallengesWithTestsMark8
             return intArray;
         }
 
-        public string[] ChangeAllElementsToUppercase(string[] words)
+        public void ChangeAllElementsToUppercase(string[] words)
         {
-            throw new NotImplementedException();
+            // *****************************************************************************************
+            // ****** Had to look this one up from the answer branch. Come back for review later. ******
+            // *****************************************************************************************
+            for (int i = 0; i < words.Length; i++)
+                words[i] = words[i].ToUpper();
         }
     }
 }
