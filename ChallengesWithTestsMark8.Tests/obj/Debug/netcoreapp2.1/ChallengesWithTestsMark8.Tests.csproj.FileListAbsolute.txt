@@ -104,3 +104,4 @@ C:\Users\blake\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj
 C:\Users\blake\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.dll
 C:\Users\blake\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.pdb
 C:\Users\blake\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.genruntimeconfig.cache
+C:\Users\blake\Desktop\repos\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp2.1\ChallengesWithTestsMark8.Tests.csproj.CopyComplete
