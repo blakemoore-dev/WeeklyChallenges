@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {}
+    "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {
+    "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
         "projectName": "ChallengesWithTestsMark8.Tests",
-        "projectPath": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
+        "projectPath": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
         "packagesPath": "C:\\Users\\blake\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\obj\\",
+        "outputPath": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
-                "projectPath": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
+              "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
+                "projectPath": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
+    "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+        "projectUniqueName": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
         "projectName": "ChallengesWithTestsMark8",
-        "projectPath": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+        "projectPath": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
         "packagesPath": "C:\\Users\\blake\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\obj\\",
+        "outputPath": "C:\\Users\\blake\\Desktop\\repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
