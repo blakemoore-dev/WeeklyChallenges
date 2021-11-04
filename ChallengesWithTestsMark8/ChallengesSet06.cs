@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -7,7 +8,20 @@ namespace ChallengesWithTestsMark8
     {
         public bool CollectionContainsWord(IEnumerable<string> words, string word, bool ignoreCase)
         {
-            throw new NotImplementedException();
+            foreach (var w in words)
+            {
+                if (ignoreCase == true)
+                {
+                    if (w.ToLower() == word)
+                        return true;
+                }
+                else if (ignoreCase == false)
+                {
+                    if (w == word)
+                        return true;
+                }
+            }
+            return false;
         }
 
         public bool IsPrimeNumber(int num)
